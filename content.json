@@ -4,18 +4,93 @@
   "title": "Bilice Kebap · Asmalı Mescit",
   "description": "Bilice Kebap için bağımsız web tasarım konsepti. Ortaya bir tepsi; kebap, meze ve lavaş.",
   "location": "Asmalı Mescit · Beyoğlu",
-  "hero": {"first": "Ortaya", "second": "bir tepsi.", "intro": "Kebap ortada. Meze etrafında.\nSofra, paylaşınca güzel.", "caption": "Bilice sofrası · İstanbul"},
-  "links": {"menu": "#menu", "table": "#sofra", "visit": "#ziyaret", "maps": "https://maps.app.goo.gl/gDYZE69iCx8Vz1MH6", "directions": "https://www.google.com/maps/dir/?api=1&destination=Bilice+Kebap%2C+Asmal%C4%B1+Mescit+Cd.+No%3A8%2C+Beyo%C4%9Flu%2C+Istanbul", "phone": "tel:+905320596712"},
-  "labels": {"skip": "İçeriğe geç", "nav": "Ana menü", "table": "Sofra", "menu": "Menü", "visit": "Bizi Bulun", "explore": "Menüyü Keşfet", "directions": "Yol Tarifi Al", "call": "Telefon Et", "maps": "Google Maps’te görüntüle", "picker": "Sofrayı keşfet"},
-  "table": {"eyebrow": "Bilice Sofrası", "title": "Bir tepsi.\nAynı sofra.", "intro": "Ortadaki kebaptan etrafındaki küçük tabaklara. Sofrayı birlikte keşfedelim.", "hint": "Bir lezzet seç, tepsideki yerini keşfet."},
+  "hero": {
+    "first": "Ortaya",
+    "second": "bir tepsi.",
+    "intro": "Kebap ortada. Herkes etrafında.",
+    "caption": "Bilice sofrası · İstanbul"
+  },
+  "links": {
+    "menu": "#menu",
+    "table": "#sofra",
+    "visit": "#ziyaret",
+    "maps": "https://maps.app.goo.gl/gDYZE69iCx8Vz1MH6",
+    "directions": "https://www.google.com/maps/dir/?api=1&destination=Bilice+Kebap%2C+Asmal%C4%B1+Mescit+Cd.+No%3A8%2C+Beyo%C4%9Flu%2C+Istanbul",
+    "phone": "tel:+905320596712"
+  },
+  "labels": {
+    "skip": "İçeriğe geç",
+    "nav": "Ana menü",
+    "table": "Sofra",
+    "menu": "Menü",
+    "visit": "Bizi Bulun",
+    "explore": "Menüyü Keşfet",
+    "directions": "Yol Tarifi Al",
+    "call": "Telefon Et",
+    "maps": "Google Maps’te görüntüle",
+    "picker": "Sofrayı keşfet",
+    "close": "Kapat",
+    "navigation": "Gezinme menüsü"
+  },
+  "table": {
+    "eyebrow": "Bilice Sofrası",
+    "title": "Sofra dediğin,\npaylaşılır.",
+    "intro": "Bir tepsi ortaya gelir. Kebap, lavaş ve küçük meze tabakları aynı sofrada buluşur.",
+    "hint": "Tepsiyi keşfet"
+  },
   "dishes": [
-    {"id": "kebap", "name": "Kebap", "description": "Izgaradan çıkan kebap, tepsinin ortasında.", "menu": "Sofranın merkezindeki ızgara lezzetleri."},
-    {"id": "meze", "name": "Meze", "description": "Küçük meze tabakları, tepsinin çevresinde.", "menu": "Tepsinin etrafında, paylaşmalık küçük tabaklar."},
-    {"id": "lavas", "name": "Lavaş", "description": "İnce lavaş, kebabın hemen yanında.", "menu": "Kebabın yanında, sofrayı tamamlayan ince lavaş."}
+    {
+      "id": "kebap",
+      "name": "Kebap",
+      "description": "Izgaradan çıkan kebap, tepsinin ortasında.",
+      "menu": "Sofranın merkezindeki ızgara lezzetleri."
+    },
+    {
+      "id": "meze",
+      "name": "Meze",
+      "description": "Küçük meze tabakları, tepsinin çevresinde.",
+      "menu": "Tepsinin etrafında, paylaşmalık küçük tabaklar."
+    },
+    {
+      "id": "lavas",
+      "name": "Lavaş",
+      "description": "İnce lavaş, kebabın hemen yanında.",
+      "menu": "Kebabın yanında, sofrayı tamamlayan ince lavaş."
+    }
   ],
-  "menu": {"eyebrow": "Sofradan seçkiler", "title": "Menü", "note": "Sunuma kısa bir bakış. Güncel menü ve fiyatlar için bizi arayın."},
-  "gallery": {"eyebrow": "Biraz daha yakından", "title": "Sofranın detayları.", "captions": ["Izgaradan sofraya.", "Küçük tabaklar, renkli bir sofra."], "disclaimer": "Görseller temsilidir."},
-  "visit": {"eyebrow": "İstanbul · Beyoğlu", "title": "Sofrada\nyerin var.", "address": "Asmalı Mescit Cd. No:8", "city": "34430 Beyoğlu / İstanbul", "phone": "+90 532 059 67 12"},
+  "menu": {
+    "eyebrow": "Sofradan seçkiler",
+    "title": "Menü",
+    "note": "Sunuma kısa bir bakış. Güncel menü ve fiyatlar için bizi arayın."
+  },
+  "gallery": {
+    "eyebrow": "Biraz daha yakından",
+    "title": "Yakından bak.\nİştahın açılsın.",
+    "captions": [
+      "Izgaradan sofraya.",
+      "Küçük tabaklar, renkli bir sofra."
+    ],
+    "disclaimer": "Görseller temsilidir."
+  },
+  "visit": {
+    "eyebrow": "İstanbul · Beyoğlu",
+    "title": "Asmalı Mescit’te\nbuluşalım.",
+    "address": "Asmalı Mescit Cd. No:8",
+    "city": "34430 Beyoğlu / İstanbul",
+    "phone": "+90 532 059 67 12"
+  },
   "footer": "Bağımsız web tasarım konsepti",
-  "images": {"hero": "assets/tray.webp", "mobile": "assets/tray-mobile.webp", "kebap": "assets/kebap.webp", "meze": "assets/meze.webp", "heroAlt": "Büyük yuvarlak metal tepside, ortada üç kebap şişi ve lavaş, etrafında sekiz küçük meze tabağı", "kebapAlt": "Metal tepside ızgara kebap şişleri ve ince katlanmış lavaşın yakın planı", "mezeAlt": "Metal tabaklarda doğranmış sebzeler, kırmızı meze ve açık renkli kremalı meze"}
+  "images": {
+    "hero": "assets/tray.webp",
+    "mobile": "assets/tray-mobile.webp",
+    "kebap": "assets/kebap.webp",
+    "meze": "assets/meze.webp",
+    "heroAlt": "Büyük yuvarlak metal tepside, ortada üç kebap şişi ve lavaş, etrafında sekiz küçük meze tabağı",
+    "kebapAlt": "Metal tepside ızgara kebap şişleri ve ince katlanmış lavaşın yakın planı",
+    "mezeAlt": "Metal tabaklarda doğranmış sebzeler, kırmızı meze ve açık renkli kremalı meze",
+    "grill": "assets/grill.webp",
+    "lavas": "assets/lavas.webp",
+    "grillAlt": "Kor üzerinde kebap şişlerinin yakın planı",
+    "lavasAlt": "Metal tabakta ince katlanmış lavaş"
+  }
 }
