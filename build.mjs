@@ -46,5 +46,6 @@ document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!nav.hidden
 matchMedia('(min-width:701px)').addEventListener('change',event=>{if(event.matches)closeNav();});
 `);
 await copyFile(new URL('./style.css',import.meta.url),new URL('./dist/style.css',import.meta.url));
+await copyFile(new URL('./watermark.svg',import.meta.url),new URL('./dist/watermark.svg',import.meta.url));
 await writeFile(new URL('./dist/favicon.svg',import.meta.url),'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="8" fill="#b7502c"/><text x="13" y="49" font-family="Arial,sans-serif" font-size="48" font-weight="900" fill="#efede7">B</text></svg>');
 console.log('Built Bilice Kebap v2');
